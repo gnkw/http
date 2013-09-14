@@ -1,0 +1,25 @@
+{
+	"name" : "gnkw/http",
+	"type" : "library",
+	"keywords" : ["gnkw", "gnuk", "network", "kernel", "web", "http"],
+	"homepage" : "http://www.gnkw.org",
+	"license" : "AGPL-3.0",
+	"authors" : [
+		{
+			"name" : "Anthony Rey",
+			"email" : "anthony.rey@mailoo.org",
+			"homepage" : "http://www.gnkw.org",
+			"role" : "Developer"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Gnkw": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"gnkw/tools": "2.*"
+	},
+	"minimum-stability": "dev"
+}
