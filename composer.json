@@ -16,7 +16,7 @@
 		"psr-0": {
 			"Gnkw": "src/"
 		},
-		"files": ["src/Gnkam/functions.php"]
+		"files": ["src/Gnkw/functions.php"]
 	},
 	"require": {
 		"php": ">=5.3.3",
