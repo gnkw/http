@@ -15,10 +15,11 @@
 	"autoload": {
 		"psr-0": {
 			"Gnkw": "src/"
-		}
+		},
+		"files": ["src/Gnkam/functions.php"]
 	},
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.3.3",
 		"gnkw/tools": "2.*"
 	},
 	"minimum-stability": "dev"
