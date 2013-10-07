@@ -189,11 +189,12 @@ class Client
 	* Use HTTP GET to read data
 	* @param string|Gnkw\Http\Uri $service Service to call
 	* @param string|array $headers Request headers
+	* @param string Possible $data Data to get
 	* @return Gnkw\Http\Rest\Resource
 	*/
-	public function read($service, $headers = null)
+	public function read($service, $headers = null, $data = null)
 	{
-		return $this->get($service, $headers);
+		return $this->get($service, $headers, $data);
 	}
 
 	/**
@@ -201,11 +202,12 @@ class Client
 	* Use HTTP GET to read data
 	* @param string|Gnkw\Http\Uri $service Service to call
 	* @param string|array $headers Request headers
+	* @param string Possible $data Data to get
 	* @return Gnkw\Http\Rest\Resource
 	*/
-	public function get($service, $headers = null)
+	public function get($service, $headers = null, $data = null)
 	{
-		return $this->customRequest($service, 'GET', $headers);
+		return $this->customRequest($service, 'GET', $headers, $data);
 	}
 	
 	/**
